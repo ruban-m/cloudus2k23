@@ -1,0 +1,52 @@
+.logo-box {
+  margin-top: 3rem;
+  padding: 3rem;
+  text-align: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+}
+
+.logo-box h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.logo-box p {
+  font-size: 24px;
+}
+
+.logo-box .btn-width {
+  min-width: 200px;
+}
+
+@media (max-width: 400px) {
+  .logo-box {
+    gap: 1.5rem;
+  }
+
+  .logo-box h1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  .logo-box p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-box {
+    gap: 2rem;
+  }
+  .logo-box h1 {
+    font-size: 80px;
+  }
+
+  .logo-box p {
+    font-size: 18px;
+  }
+}
