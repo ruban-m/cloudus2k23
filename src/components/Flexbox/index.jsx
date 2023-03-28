@@ -10,9 +10,9 @@ import coffeeLottie from '../../assets/Lottie/coffee-love.json'
 const Flexbox = () => {
   return (
     <React.Fragment>
-      <Break lottieData={coffeeLottie} />
-      <div className='row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 p-4 p-lg-5 m-0'>
-        <div className='col'>
+      <Break start='Coffee' end='Break' lottieData={coffeeLottie} />
+      <div className='row p-4 p-lg-5 m-0'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -20,10 +20,10 @@ const Flexbox = () => {
             description={'vefvevrf'}
           />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-2'>
           <Timing startTime='10:00 AM' endTime='11:00 AM' />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -32,8 +32,8 @@ const Flexbox = () => {
           />
         </div>
       </div>
-      <div className='row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 p-4 p-lg-5 m-0'>
-        <div className='col'>
+      <div className='row p-4 p-lg-5 m-0'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -41,10 +41,10 @@ const Flexbox = () => {
             description={'vefvevrf'}
           />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-2'>
           <Timing startTime='11:00 AM' endTime='12:00 PM' />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -53,8 +53,8 @@ const Flexbox = () => {
           />
         </div>
       </div>
-      <div className='row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 p-4 p-lg-5 m-0'>
-        <div className='col'>
+      <div className='row p-4 p-lg-5 m-0'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -62,10 +62,10 @@ const Flexbox = () => {
             description={'vefvevrf'}
           />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-2'>
           <Timing startTime='12:00 PM' endTime='01:00 PM' />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -74,9 +74,9 @@ const Flexbox = () => {
           />
         </div>
       </div>
-      <Break lottieData={lunchLottie} />
-      <div className='row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 p-4 p-lg-5 m-0'>
-        <div className='col'>
+      <Break start='Lunch' end='Break' lottieData={lunchLottie} />
+      <div className='row p-4 p-lg-5 m-0'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -84,10 +84,10 @@ const Flexbox = () => {
             description={'vefvevrf'}
           />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-2'>
           <Timing startTime='02:00 PM' endTime='03:00 PM' />
         </div>
-        <div className='col'>
+        <div className='col-12 col-md-5'>
           <Card
             img={img1}
             title='ceveve'
@@ -96,7 +96,7 @@ const Flexbox = () => {
           />
         </div>
       </div>
-      <Break lottieData={priceLottie} />
+      <Break start='Prize' end='Distribution' lottieData={priceLottie} />
     </React.Fragment>
   )
 }

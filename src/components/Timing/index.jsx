@@ -12,6 +12,7 @@ const Timing = ({ startTime, endTime }) => {
       <p>|</p>
       <h4>{endTime}</h4>
       <p>|</p>
+      <p>|</p>
     </div>
   )
 }

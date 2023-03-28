@@ -14,7 +14,7 @@ const Logo = () => {
         ipsa excepturi saepe mollitia assumenda accusantium consequuntur soluta
       </p>
       <button className='btn btn-dark btn-width' type='button'>
-        Registor
+        Register
       </button>
     </div>
   )
