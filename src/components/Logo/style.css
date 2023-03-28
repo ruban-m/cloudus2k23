@@ -23,27 +23,27 @@
   min-width: 200px;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .logo-box {
-    gap: 1.5rem;
+    gap: 1.5rem !important;
   }
 
   .logo-box h1 {
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 60px !important;
   }
 
   .logo-box p {
-    font-size: 18px;
+    font-size: 14px !important;
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .logo-box {
     gap: 2rem;
   }
+
   .logo-box h1 {
-    font-size: 80px;
+    font-size: 70px;
   }
 
   .logo-box p {

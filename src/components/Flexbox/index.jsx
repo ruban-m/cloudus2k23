@@ -11,7 +11,7 @@ const Flexbox = () => {
   return (
     <React.Fragment>
       <Break start='Coffee' end='Break' lottieData={coffeeLottie} />
-      <div className='row p-4 p-lg-5 m-0'>
+      <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
             img={img1}
@@ -32,7 +32,7 @@ const Flexbox = () => {
           />
         </div>
       </div>
-      <div className='row p-4 p-lg-5 m-0'>
+      <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
             img={img1}
@@ -53,7 +53,7 @@ const Flexbox = () => {
           />
         </div>
       </div>
-      <div className='row p-4 p-lg-5 m-0'>
+      <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
             img={img1}
@@ -75,7 +75,7 @@ const Flexbox = () => {
         </div>
       </div>
       <Break start='Lunch' end='Break' lottieData={lunchLottie} />
-      <div className='row p-4 p-lg-5 m-0'>
+      <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
             img={img1}

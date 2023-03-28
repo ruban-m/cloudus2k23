@@ -1,7 +1,9 @@
 .timing {
   text-align: center;
   align-items: center;
+  justify-content: center;
   color: black;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
