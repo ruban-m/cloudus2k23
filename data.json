@@ -1,0 +1,74 @@
+[
+  {
+    "technicalEvent": {
+      "image": "/assets/svg/solution-sprint.svg",
+      "title": "Solution Sprint:",
+      "subtitle": "(Technical Event)",
+      "description": "The Solution Sprint involves presenting a solution to a problem statement, They have the freedom to select any problem statement and devise a solution for it"
+    },
+    "timing": {
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM"
+    },
+    "nonTechnicalEvent": {
+      "image": "/assets/svg/talent-fest.svg",
+      "title": "Talent Fest:",
+      "subtitle": "(Non Technical Event)",
+      "description": "In Talent Fest, Participants need to exhibit their skills and abilities in a particular category (Categories are listed below)"
+    }
+  },
+  {
+    "technicalEvent": {
+      "image": "/assets/svg/ctf.svg",
+      "title": "Cyber Siege:",
+      "subtitle": "(Technical Event)",
+      "description": "Cyber Siege is a Capture The Flag event that contains 10 challenges in the category of Web, Crypto, Reversing, Forensics & OSINT"
+    },
+    "timing": {
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM"
+    },
+    "nonTechnicalEvent": {
+      "image": "/assets/svg/reel-tunes.svg",
+      "title": "Reel Tunes:",
+      "subtitle": "(Non Technical Event)",
+      "description": "Reel Tunes contains 3 rounds, 1) Guess the BGM, 2) Find the movie name with the given images, 3) Find the missing lyrics in the song."
+    }
+  },
+  {
+    "technicalEvent": {
+      "image": "/assets/svg/debug-drift.svg",
+      "title": "Debug Drift:",
+      "subtitle": "(Technical Event)",
+      "description": "Debug Drift is code debugging event that contains few programming challenges"
+    },
+    "timing": {
+      "startTime": "12:00 PM",
+      "endTime": "01:00 PM"
+    },
+    "nonTechnicalEvent": {
+      "image": "/assets/svg/ipl.svg",
+      "title": "IPL Blitz:",
+      "subtitle": "(Non Technical Event)",
+      "description": "IPL Blitz contains 2 or 3 rounds, In the first two rounds participants need to answer the questions thats related to IPL., In the Final round they are sorted out to 4 individual teams for the IPL Auction"
+    }
+  },
+  {
+    "technicalEvent": {
+      "image": "/assets/svg/markup-mayhem.svg",
+      "title": "Markup Mayhem:",
+      "subtitle": "(Technical Event)",
+      "description": "Markup Mayhem is a HTML & CSS battle event, Participants need to style the given design accurately using HTML & CSS"
+    },
+    "timing": {
+      "startTime": "02:00 PM",
+      "endTime": "03:00 PM"
+    },
+    "nonTechnicalEvent": {
+      "image": "/assets/svg/fnf.svg",
+      "title": "Fast n Frolic",
+      "subtitle": "(Non Technical Event)",
+      "description": "Fast n Frolic is an adventure-themed event that involves several fun games that require physical activity"
+    }
+  }
+]

@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import bgImage from '../../assets/images/background.png'
+import bgImage from '/assets/images/background.png'
 
 const Footer = () => {
   return (
