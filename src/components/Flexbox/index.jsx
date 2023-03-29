@@ -7,6 +7,18 @@ import lunchLottie from '../../assets/Lottie/prepare-food.json'
 import priceLottie from '../../assets/Lottie/trophy.json'
 import coffeeLottie from '../../assets/Lottie/coffee-love.json'
 
+//technical
+import t1 from '../../assets/svg/solution-sprint.svg'
+import ctf from '../../assets/svg/ctf.svg'
+import debugDrift from '../../assets/svg/debug-drift.svg'
+import markupMayhem from '../../assets/svg/markup-mayhem.svg'
+
+// non technical
+import talentFest from '../../assets/svg/talent-fest.svg'
+import ipl from '../../assets/svg/ipl.svg'
+import reelTunes from '../../assets/svg/reel-tunes.svg'
+import fnf from '../../assets/svg/fnf.svg'
+
 const Flexbox = () => {
   return (
     <React.Fragment>
@@ -14,10 +26,10 @@ const Flexbox = () => {
       <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={t1}
+            title='Solution Sprint:'
+            subtitle='(Technical Event)'
+            description='The Solution Sprint involves presenting a solution to a problem statement, They have the freedom to select any problem statement and devise a solution for it'
           />
         </div>
         <div className='col-12 col-md-2'>
@@ -25,20 +37,21 @@ const Flexbox = () => {
         </div>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={talentFest}
+            title='Talent Fest:'
+            subtitle='(Non Technical Event)'
+            description='In Talent Fest, Participants need to exhibit their skills and abilities in a particular category (Categories are listed below)'
           />
         </div>
       </div>
       <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={ctf}
+            title='Cyber Siege:'
+            subtitle='(Technical Event)'
+            description='Cyber Siege is a Capture The Flag event that contains 10 challenges in the category of Web, Crypto, Reversing, Forensics & OSINT
+            '
           />
         </div>
         <div className='col-12 col-md-2'>
@@ -46,20 +59,23 @@ const Flexbox = () => {
         </div>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={reelTunes}
+            title='Reel Tunes:'
+            subtitle='(Non Technical Event)'
+            description='Reel Tunes contains 3 rounds,
+            1) Guess the BGM, 
+            2) Find the movie name with the given images, 
+            3) Find the missing lyrics in the song.'
           />
         </div>
       </div>
       <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={debugDrift}
+            title='Debug Drift:'
+            subtitle='(Technical Event)'
+            description='Debug Drift is code debugging event that contains few programming challenges'
           />
         </div>
         <div className='col-12 col-md-2'>
@@ -67,10 +83,10 @@ const Flexbox = () => {
         </div>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={ipl}
+            title='IPL Blitz:'
+            subtitle='(Non Technical Event)'
+            description='IPL Blitz contains 2 or 3 rounds, In the first two rounds participants need to answer the questions thats related to IPL., In the Final round they are sorted out to 4 individual teams for the IPL Auction'
           />
         </div>
       </div>
@@ -78,10 +94,10 @@ const Flexbox = () => {
       <div className='row p-4 m-0'>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={markupMayhem}
+            title='Markup Mayhem:'
+            subtitle='(Technical Event)'
+            description='Markup Mayhem is a HTML & CSS battle event, Participants need to style the given design accurately using HTML & CSS'
           />
         </div>
         <div className='col-12 col-md-2'>
@@ -89,10 +105,10 @@ const Flexbox = () => {
         </div>
         <div className='col-12 col-md-5'>
           <Card
-            img={img1}
-            title='ceveve'
-            subtitle={'bchwbcwu'}
-            description={'vefvevrf'}
+            img={fnf}
+            title='Fast n Frolic:'
+            subtitle='(Non Technical Event)'
+            description='Fast n Frolic is an adventure-themed event that involves several fun games that require physical activity'
           />
         </div>
       </div>

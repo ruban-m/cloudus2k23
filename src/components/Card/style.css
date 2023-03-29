@@ -1,0 +1,6 @@
+.img-box {
+  display: flex;
+  align-self: center;
+  max-width: 300px;
+  aspect-ratio: 1/1;
+}
