@@ -8,7 +8,7 @@ const Navbar = () => {
     >
       <div>
         <a href='https://www.ssmiet.ac.in/' className='navbar-brand px-3'>
-          cloudus 2K23
+          cloudus 2k23
         </a>
       </div>
     </div>
