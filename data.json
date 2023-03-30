@@ -4,7 +4,8 @@
       "image": "/assets/svg/solution-sprint.svg",
       "title": "Solution Sprint:",
       "subtitle": "(Technical Event)",
-      "description": "The Solution Sprint involves presenting a solution to a problem statement, They have the freedom to select any problem statement and devise a solution for it"
+      "description": "The Solution Sprint involves presenting a solution to a problem statement, They have the freedom to select any problem statement and devise a solution for it",
+      "link": "/assets/Solution-Sprint-Templates.pptx"
     },
     "timing": {
       "startTime": "10:00 AM",

@@ -13,9 +13,15 @@ const Logo = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui,
         ipsa excepturi saepe mollitia assumenda accusantium consequuntur soluta
       </p>
-      <button className='btn btn-dark btn-width' type='button'>
+      <a
+        href='https://forms.gle/ZBATuGzXBk86V9HS9'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='btn btn-dark btn-width'
+        type='button'
+      >
         Register
-      </button>
+      </a>
     </div>
   )
 }

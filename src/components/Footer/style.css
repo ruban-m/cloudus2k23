@@ -5,6 +5,7 @@
   position: relative;
   margin-bottom: 5px;
   color: white;
+  z-index: -2;
 }
 
 .footer img {
@@ -12,4 +13,5 @@
   object-fit: cover;
   position: absolute;
   bottom: 0;
+  z-index: -1;
 }

@@ -1,0 +1,22 @@
+.inagural {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inagural img {
+  width: 500px;
+}
+
+@media screen and (max-width: 400px) {
+  .inagural img {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .inagural img {
+    width: 400px;
+  }
+}

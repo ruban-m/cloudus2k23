@@ -4,7 +4,7 @@ const Timing = ({ startTime, endTime }) => {
   return (
     <div className='timing'>
       <p>|</p>
-      <h5>From</h5>
+      <h5>Between</h5>
       <p>|</p>
       <h4>{startTime}</h4>
       <p>|</p>
