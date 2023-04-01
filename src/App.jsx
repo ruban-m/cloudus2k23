@@ -59,7 +59,7 @@ const App = () => {
       <Break
         startTime='03:00 PM'
         endTime='03:30 PM'
-        breakName1='Price'
+        breakName1='Prize'
         breakName2='Distribution'
         lottieData={priceLottie}
       />
