@@ -9,9 +9,10 @@ const Logo = () => {
         <h1>CLOUDUS</h1>
         <h1>2K23</h1>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui,
-        ipsa excepturi saepe mollitia assumenda accusantium consequuntur soluta
+      <p className='mx-lg-4'>
+        The department of Computer Science and Engineering & in SSM Institute of
+        Engineering and Technology, Dindigul is proposed to conduct a National
+        Level Technical Symposium "CLOUDUS'2k23" on 13th APRIL, 2023.
       </p>
       <a
         href='https://forms.gle/ZBATuGzXBk86V9HS9'

@@ -8,8 +8,8 @@
       "link": "/assets/Solution-Sprint-Templates.pptx"
     },
     "timing": {
-      "startTime": "10:00 AM",
-      "endTime": "11:00 AM"
+      "startTime": "10:30 AM",
+      "endTime": "11:30 AM"
     },
     "nonTechnicalEvent": {
       "image": "/assets/svg/talent-fest.svg",
@@ -26,8 +26,8 @@
       "description": "Cyber Siege is a Capture The Flag event that contains 10 challenges in the category of Web, Crypto, Reversing, Forensics & OSINT"
     },
     "timing": {
-      "startTime": "11:00 AM",
-      "endTime": "12:00 PM"
+      "startTime": "11:30 AM",
+      "endTime": "12:15 PM"
     },
     "nonTechnicalEvent": {
       "image": "/assets/svg/reel-tunes.svg",
@@ -44,7 +44,7 @@
       "description": "Debug Drift is code debugging event that contains few programming challenges"
     },
     "timing": {
-      "startTime": "12:00 PM",
+      "startTime": "12:15 PM",
       "endTime": "01:00 PM"
     },
     "nonTechnicalEvent": {
@@ -62,8 +62,8 @@
       "description": "Markup Mayhem is a HTML & CSS battle event, Participants need to style the given design accurately using HTML & CSS"
     },
     "timing": {
-      "startTime": "02:00 PM",
-      "endTime": "03:00 PM"
+      "startTime": "01:45 PM",
+      "endTime": "02:45 PM"
     },
     "nonTechnicalEvent": {
       "image": "/assets/svg/fnf.svg",

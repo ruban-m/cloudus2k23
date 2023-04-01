@@ -6,8 +6,6 @@ const Inagural = () => {
   return (
     <div className='inagural'>
       <img src={inag} alt='' />
-      <h4>Then</h4>
-      <p>|</p>
     </div>
   )
 }
