@@ -3,3 +3,13 @@
   justify-content: center;
   display: flex;
 }
+
+.para p {
+  margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .para p {
+    font-size: 12px;
+  }
+}

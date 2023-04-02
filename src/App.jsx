@@ -5,7 +5,6 @@ import Navbar from './components/Navbar'
 import Events from './components/Events'
 import Break from './components/Break'
 
-import lunchLottie from './assets/Lottie/prepare-food.json'
 import priceLottie from './assets/Lottie/trophy.json'
 import coffeeLottie from './assets/Lottie/coffee-love.json'
 import awardLottie from './assets/Lottie/award.json'

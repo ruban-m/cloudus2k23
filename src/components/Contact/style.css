@@ -1,5 +1,33 @@
 .contact {
+  display: grid;
+  grid-auto-flow: column;
+  color: white;
+  padding: 2rem;
+  gap: 2rem;
   position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  text-shadow: 1px 1px 1px black;
+}
+
+.contact .contact-flex-box {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.contact .contact-flex-box .sub-flex {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    grid-auto-flow: row;
+  }
 }

@@ -1,17 +1,15 @@
 .footer {
-  background-color: #03001c;
   min-width: 100%;
-  height: 390px;
   position: relative;
   margin-bottom: 5px;
-  color: white;
-  z-index: -2;
+  background-color: #e4e4e1;
+  background-image: linear-gradient(to top, white 0%, black 100%);
+  background-blend-mode: normal, multiply;
 }
 
-.footer img {
+.footer .nightimage {
   max-width: 100%;
   object-fit: cover;
   position: absolute;
   bottom: 0;
-  z-index: -1;
 }
