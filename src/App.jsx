@@ -1,4 +1,5 @@
 import React from 'react'
+import { v4 as uuid } from 'uuid'
 import Footer from './components/Footer'
 import Logo from './components/Logo'
 import Navbar from './components/Navbar'
@@ -16,6 +17,9 @@ import Data from '../data.json'
 import Inagural from './components/Inagural'
 
 const App = () => {
+  console.log(
+    'Design and Developement Credits M.Ruban final year CSE, Github 💖 https://github.com/ruban-m/'
+  )
   return (
     <div>
       <Navbar />
@@ -36,7 +40,7 @@ const App = () => {
         lottieData={coffeeLottie}
       />
       {Data.slice(0, 3).map((data) => (
-        <Events object={data} />
+        <Events object={data} key={uuid()} />
       ))}
       <Break
         startTime='01:00 PM'
@@ -46,7 +50,7 @@ const App = () => {
         lottieData={foodLottie}
       />
       {Data.slice(3, 4).map((data) => (
-        <Events object={data} />
+        <Events object={data} key={uuid()} />
       ))}
       <Break
         startTime='02:45 PM'

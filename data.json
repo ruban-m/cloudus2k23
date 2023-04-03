@@ -1,10 +1,20 @@
 [
   {
     "technicalEvent": {
+      "id": "t1",
       "image": "/assets/svg/solution-sprint.svg",
-      "title": "Solution Sprint:",
+      "title": "Solution Sprint",
       "subtitle": "(Technical Event)",
-      "description": "The Solution Sprint involves presenting a solution to a problem statement, They have the freedom to select any problem statement and devise a solution for it",
+      "description": "Solution Sprint is an event which welcomes an innovative idea that should be converted into a worth of market value product or project to be elevated in advance to be presented. Ideas in developing stage are mostly welcome.",
+      "rules": [
+        "Abstract should not be more than 500 words.",
+        "Present the content in simple, clear and precise manner Make use of bulletin points not in paragraph.",
+        "Must follow the Given PPT template",
+        "Team members per team should be maximum of two.",
+        "Communication should be in English. Time limit to present is 7 minutes and Questionnaire section will be 3 minutes(totally 10 mins per team).",
+        "Last date for sending your presentation is 10.04.2023 at 12 pm to the cloudus2k23@gmail.com and bring the softcopy during the presentation.",
+        "Ideas in different domain are encouraged. (Note: Related to computer science domains are most preferrable.)"
+      ],
       "link": "/assets/Solution-Sprint-Templates.pptx"
     },
     "timing": {
@@ -12,64 +22,115 @@
       "endTime": "11:30 AM"
     },
     "nonTechnicalEvent": {
+      "id": "nt1",
       "image": "/assets/svg/talent-fest.svg",
-      "title": "Talent Fest:",
+      "title": "Talent Fest",
       "subtitle": "(Non Technical Event)",
-      "description": "In Talent Fest, Participants need to exhibit their skills and abilities in a particular category (Categories are listed below)"
+      "description": "In Talent Fest, Participants need to exhibit their skills and abilities in a particular category (Categories are listed below)",
+      "rules": [""]
     }
   },
   {
     "technicalEvent": {
+      "id": "t2",
       "image": "/assets/svg/ctf.svg",
-      "title": "Cyber Siege:",
+      "title": "Cyber Siege",
       "subtitle": "(Technical Event)",
-      "description": "Cyber Siege is a Capture The Flag event that contains 10 challenges in the category of Web, Crypto, Reversing, Forensics & OSINT"
+      "description": "Cyber Siege is a Capture The Flag event that involves 10 challenges in 5 different categories, Web, Reversing, Cryptography, Forensics, OSINT Participants need to solve the challenge and submit the flag in the CTF platform According to the challenge points participants will rank in the scoreboard For any further queries you can contact me in discord Jopraveen#0476",
+      "rules": [
+        "Team Size: 1",
+        "Only college students are eligible to participate",
+        "We will share the CTF event's site link before the event",
+        "Flag sharing & Asking Hints are prohibited",
+        "Flag format CLOUDUS23{}",
+        "DDOS or brute forcing flags may result in disqualification",
+        "Participants should bring their laptops to solve the challenges (We have Windows system in our labs but it’s better if you bring your laptops with pre-installed tools for CTF)"
+      ]
     },
     "timing": {
       "startTime": "11:30 AM",
       "endTime": "12:15 PM"
     },
     "nonTechnicalEvent": {
+      "id": "nt2",
       "image": "/assets/svg/reel-tunes.svg",
-      "title": "Reel Tunes:",
+      "title": "Reel Tunes",
       "subtitle": "(Non Technical Event)",
-      "description": "Reel Tunes contains 3 rounds, 1) Guess the BGM, 2) Find the movie name with the given images, 3) Find the missing lyrics in the song."
+      "description": "Reel Tunes contains 3 rounds, 1) Guess the BGM, 2) Find the movie name with the given images, 3) Find the missing lyrics in the song.",
+      "rules": [
+        "3 members per team",
+        "Total number of rounds 3",
+        "->Round 1- finding the BGM",
+        "->Round 2- guess the movie based on templates",
+        "->Round 3- find the missing lyrics",
+        "->Round 3- find the missing lyrics",
+        "Team with high score moves to next round."
+      ]
     }
   },
   {
     "technicalEvent": {
+      "id": "t3",
       "image": "/assets/svg/debug-drift.svg",
-      "title": "Debug Drift:",
+      "title": "Debug Drift",
       "subtitle": "(Technical Event)",
-      "description": "Debug Drift is code debugging event that contains few programming challenges"
+      "description": "Debug Drift is code debugging event that contains few programming challenges",
+      "rules": [
+        "Team Size: 1",
+        "Only college students are eligible to participate",
+        "2 Rounds will be conducted in 45mins",
+        "Round 1 will be “Quiz” conducted in 15 mins",
+        "Round 2 will be “Coding” conducted in 30 mins",
+        "Participants should  not  visit other website",
+        "Participants can use their own laptops to solve"
+      ]
     },
     "timing": {
       "startTime": "12:15 PM",
       "endTime": "01:00 PM"
     },
     "nonTechnicalEvent": {
+      "id": "nt3",
       "image": "/assets/svg/ipl.svg",
-      "title": "IPL Blitz:",
+      "title": "IPL Blitz",
       "subtitle": "(Non Technical Event)",
-      "description": "IPL Blitz contains 2 or 3 rounds, In the first two rounds participants need to answer the questions thats related to IPL., In the Final round they are sorted out to 4 individual teams for the IPL Auction"
+      "description": "IPL Blitz contains 2 or 3 rounds, In the first two rounds participants need to answer the questions thats related to IPL., In the Final round they are sorted out to 4 individual teams for the IPL Auction",
+      "rules": [""]
     }
   },
   {
     "technicalEvent": {
+      "id": "t4",
       "image": "/assets/svg/markup-mayhem.svg",
-      "title": "Markup Mayhem:",
+      "title": "Markup Mayhem",
       "subtitle": "(Technical Event)",
-      "description": "Markup Mayhem is an HTML & CSS battle event, Participants need to style the given web page design accurately using HTML & CSS. All assets and Figma design needed for Web Page design will be provided on spot. No team participation. Participants should design within the allotted time 01:45pm to 02:45pm. Participants shall bring their own laptops for their convenience."
+      "description": "Markup Mayhem is an HTML & CSS battle event, Participants need to style the given web page design accurately using HTML & CSS",
+      "rules": [
+        "Team size: 1",
+        "The event will be conducted in cssbattle.dev platform, so participants need to have an account on that website",
+        "Battle's link will be shared few minutes before the event",
+        "Participants should design within the allotted time 01:45pm to 02:45pm",
+        "Participants shall bring their own laptops for their convenience.",
+        "Sharing your code and asking help are strictly prohibited "
+      ]
     },
     "timing": {
       "startTime": "01:45 PM",
       "endTime": "02:45 PM"
     },
     "nonTechnicalEvent": {
+      "id": "nt4",
       "image": "/assets/svg/fnf.svg",
       "title": "Fast n Frolic",
       "subtitle": "(Non Technical Event)",
-      "description": "Fast n Frolic is an adventure-themed event that involves several fun games that require physical activity"
+      "description": "Fast n Frolic is an adventure-themed event that involves several fun games that require physical activity",
+      "rules": [
+        "Three participants per team is allowed.",
+        "Any form of malpractice will result in immediate disqualification.",
+        "The team must stay together , don't split up to divide tasks.",
+        "The participants will have to go from one place to another with the help of clues.",
+        "Complete every task in mys to reach the final destination "
+      ]
     }
   }
 ]

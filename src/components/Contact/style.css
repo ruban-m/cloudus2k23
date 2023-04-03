@@ -1,33 +1,41 @@
-.contact {
-  display: grid;
-  grid-auto-flow: column;
-  color: white;
-  padding: 2rem;
+.contact-flex-box {
+  display: flex;
   gap: 2rem;
+  flex-direction: column;
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
+  justify-content: center;
+  align-items: center;
+  inset: 0 0 auto 0;
+  color: white;
+  width: 100%;
+  height: 100%;
   z-index: 1;
-  text-shadow: 1px 1px 1px black;
 }
 
-.contact .contact-flex-box {
+.contact-flex-box .sub-flex {
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
-  flex-direction: column;
-  align-self: center;
+  justify-content: center;
   align-items: center;
-  justify-content: left;
   gap: 1rem;
 }
 
-.contact .contact-flex-box .sub-flex {
+.contact-flex-box .below-box {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .contact {
-    grid-auto-flow: row;
+  .contact-flex-box .below-box {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .contact-flex-box .sub-flex .f-h3 {
+    font-size: 1rem;
   }
 }

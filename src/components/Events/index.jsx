@@ -7,10 +7,12 @@ const Events = ({ object }) => {
     <div className='row p-1 p-md-4 m-0'>
       <div className='col-12 col-md-5'>
         <Card
+          id={object.technicalEvent.id}
           img={object.technicalEvent.image}
           title={object.technicalEvent.title}
           subtitle={object.technicalEvent.subtitle}
           description={object.technicalEvent.description}
+          rules={object.technicalEvent.rules}
           link={object.technicalEvent.link}
         />
       </div>
@@ -22,10 +24,12 @@ const Events = ({ object }) => {
       </div>
       <div className='col-12 col-md-5'>
         <Card
+          id={object.nonTechnicalEvent.id}
           img={object.nonTechnicalEvent.image}
           title={object.nonTechnicalEvent.title}
           subtitle={object.nonTechnicalEvent.subtitle}
           description={object.nonTechnicalEvent.description}
+          rules={object.nonTechnicalEvent.rules}
           link={object.nonTechnicalEvent.link}
         />
       </div>

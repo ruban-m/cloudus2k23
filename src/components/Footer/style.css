@@ -1,7 +1,7 @@
 .footer {
   min-width: 100%;
   position: relative;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   background-color: #e4e4e1;
   background-image: linear-gradient(to top, white 0%, black 100%);
   background-blend-mode: normal, multiply;

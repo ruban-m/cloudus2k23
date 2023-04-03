@@ -14,6 +14,7 @@ const Logo = () => {
         presents a National Level Technical Symposium "CLOUDUS'2k23" on 13
         <sup>th</sup> APRIL, 2023.
       </p>
+      <h6>Registration closes by 11.04.2023. No On Spot registration</h6>
       <a
         href='https://forms.gle/ZBATuGzXBk86V9HS9'
         target='_blank'
@@ -21,8 +22,9 @@ const Logo = () => {
         className='btn btn-dark btn-width'
         type='button'
       >
-        Online Registration
+        Register Now
       </a>
+      <h4>On That Day</h4>
     </div>
   )
 }
