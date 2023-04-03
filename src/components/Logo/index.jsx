@@ -15,6 +15,7 @@ const Logo = () => {
         <sup>th</sup> APRIL, 2023.
       </p>
       <h6>Registration closes by 11.04.2023. No On Spot registration</h6>
+      <h5>Registration Fee ₹200 Only !!!</h5>
       <a
         href='https://forms.gle/ZBATuGzXBk86V9HS9'
         target='_blank'
@@ -24,7 +25,7 @@ const Logo = () => {
       >
         Register Now
       </a>
-      <h4>On That Day</h4>
+      <h4>Event Schedule</h4>
     </div>
   )
 }

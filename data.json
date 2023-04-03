@@ -27,7 +27,12 @@
       "title": "Talent Fest",
       "subtitle": "(Non Technical Event)",
       "description": "In Talent Fest, Participants need to exhibit their skills and abilities in a particular category (Categories are listed below)",
-      "rules": [""]
+      "rules": [
+        "College students only can participate",
+        "No of participants per team: 1",
+        "Singing and dancing not allowed",
+        "Time duration: 3 to 5 min"
+      ]
     }
   },
   {
@@ -95,7 +100,15 @@
       "title": "IPL Blitz",
       "subtitle": "(Non Technical Event)",
       "description": "IPL Blitz contains 2 or 3 rounds, In the first two rounds participants need to answer the questions thats related to IPL., In the Final round they are sorted out to 4 individual teams for the IPL Auction",
-      "rules": [""]
+      "rules": [
+        "Three rounds will be conducted",
+        "1st Round will be based on basic IPL Question(MCQ)",
+        "From 1st Round Top 8 teams will be qualified for 2nd round",
+        "2nd Round will be based on in-depth of IPL Questions(MCQ)",
+        "From 2nd Round Top 4 teams will be qualified for 3rd round",
+        "And 3rd Round will be the IPL AUCTION (One team has 1 to 2 wicket keeper, 3 to 5 batsman, 1 to 3 All rounder, 3 to 5 Bowlers, and Each team has atleast 15 to 20 players)",
+        "Finally Credit points will decide the winner and the runner"
+      ]
     }
   },
   {
@@ -104,12 +117,13 @@
       "image": "/assets/svg/markup-mayhem.svg",
       "title": "Markup Mayhem",
       "subtitle": "(Technical Event)",
-      "description": "Markup Mayhem is an HTML & CSS battle event, Participants need to style the given web page design accurately using HTML & CSS",
+      "description": "Markup Mayhem is an HTML & CSS battle event, Participants need to style the given web page design(Form Design) accurately using HTML & CSS",
       "rules": [
         "Team size: 1",
-        "The event will be conducted in cssbattle.dev platform, so participants need to have an account on that website",
-        "Battle's link will be shared few minutes before the event",
+        "All assets(icons, images, backgrounds) and screenshot of a HTML form will be provided on spot",
+        "Participants should try to replicate the given form and design using HTML & CSS code",
         "Participants should design within the allotted time 01:45pm to 02:45pm",
+        "Winners will be selected by accuracy of the given design",
         "Participants shall bring their own laptops for their convenience.",
         "Sharing your code and asking help are strictly prohibited "
       ]
