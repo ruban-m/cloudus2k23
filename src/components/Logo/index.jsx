@@ -14,7 +14,7 @@ const Logo = () => {
         presents a National Level Technical Symposium "CLOUDUS'2k23" on 13
         <sup>th</sup> APRIL, 2023.
       </p>
-      <h6>Registration closes by 11.04.2023. No On Spot registration</h6>
+      <h6>No On Spot registration</h6>
       <h5>Registration Fee ₹200 Only !!!</h5>
       <a
         href='https://forms.gle/ZBATuGzXBk86V9HS9'
