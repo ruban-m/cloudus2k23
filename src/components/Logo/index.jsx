@@ -17,13 +17,14 @@ const Logo = () => {
       <h6>No On Spot registration</h6>
       <h5>Registration Fee ₹200 Only !!!</h5>
       <a
-        href='https://forms.gle/ZBATuGzXBk86V9HS9'
+        href='#'
         target='_blank'
         rel='noopener noreferrer'
         className='btn btn-dark btn-width'
         type='button'
+        style={{ pointerEvents: 'none' }}
       >
-        Register Now
+        sorry we are closed
       </a>
       <h4>Event Schedule</h4>
     </div>
